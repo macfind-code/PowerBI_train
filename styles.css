@@ -15,6 +15,8 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
 }
 
 h1 {
@@ -25,9 +27,8 @@ h1 {
 .powerbi-container {
     position: relative;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
